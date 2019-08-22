@@ -1,0 +1,132 @@
+html {
+    width: 80%;
+    height: 80%;
+    align-content: center;
+  
+    
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+body {
+  font-size: 12px;
+    font-family: papyrus;
+    color: black;
+    font-weight: bold;
+    background-image: url("s39.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+
+    
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+    color: #F0E68C;
+}
+
+.header{
+    
+    text-align: center;
+}
+
+
+.gameStuff{
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+/*
+div{
+    text-align: center;
+}
+*/
+
+.questionOutput{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2x solid mediumpurple;
+    background-color: lightgoldenrodyellow;
+    color: purple;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+#questionOutput{
+    color: purple;
+}
+
+
+button{
+    margin: 25px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 80px;
+    font-size: 24px;
+    text-align: center;
+    background: mediumpurple;
+    font-weight: 700;
+    font-family: papyrus;
+    color: lightgoldenrodyellow;
+    border: 2px solid lightgoldenrodyellow;
+    
+}
+
+input{
+    font-family: papyrus;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%;
+    font-size: 24px;
+    color: mediumpurple;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid purple;
+    margin-top: 100px; 
+    margin: auto;
+}
+
+::placeholder{
+    color: mediumpurple;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    text-align: center;
+}
+
+.profPic{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*
+.buttonsAB{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.buttonsBC{
+   display: flex;
+    flex-wrap: wrap;
+}
+*/
+
+.video{
+    width: 100%;
+    height: 100%;
+}
